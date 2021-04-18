@@ -56,7 +56,7 @@ This attribute shows a website description in the search engines and benefits th
  </head>
 ``` 
 
-**Meta robots**
+**Meta robots**  
 This attribute tells the navigator robots that track our page and show it in the user searches.  
 ```html
  <head>
@@ -64,22 +64,26 @@ This attribute tells the navigator robots that track our page and show it in the
  </head>
 ```  
 
-**Meta viewport**
-This attribute help us to work with responsive pages.
-
-**Title**
-This tag is the title displayed in the browser tab  
+**Meta viewport**  
+This attribute help us to work with responsive pages.  
 ```html
  <head>
    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
  </head>
 ```  
 
+**Title**  
+This tag is the title displayed in the browser tab.  
+```html
+ <head>
+  <title>Today I Learned HTML-CSS-JS</title>
+ </head>
+```  
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Nos ayuda a trabajar en proyectos reponsive-->
-
-    <link rel="stylesheet" href="./css/style.css">
-    <!--Linkea/Enlaza archivos de estilos u otros archivos que necesitemos en nuestro proyecto-->
-
-  </head>
+**Link**  
+This tag links an external resource into our page.
+```html
+ <head>
+  <link rel="stylesheet" href="style.css">Today I Learned HTML-CSS-JS />
+ </head>
+```  
