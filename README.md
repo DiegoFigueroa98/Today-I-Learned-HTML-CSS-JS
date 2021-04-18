@@ -48,7 +48,7 @@ This attribute help us to include special characters and emojis in our page.
    <meta charset="UTF-8" />
  </head>
 ```  
-**Meta description**
+**Meta description**  
 This attribute shows a website description in the search engines and benefits the website SEO.  
 ```html
  <head>
@@ -87,3 +87,77 @@ This tag links an external resource into our page.
   <link rel="stylesheet" href="style.css">Today I Learned HTML-CSS-JS />
  </head>
 ```  
+
+#### Body tag  
+Here goes the visible content to the end user  
+```html
+ <body>
+ </body>
+```  
+
+##### Container tags  
+**Header**  
+It's is the page header, It usually contains a navigation menu.  
+
+![image](https://user-images.githubusercontent.com/45472379/115162995-4b968580-a06c-11eb-9739-bd08b8f68e63.png)  
+
+**Nav**
+It usually is inside header tag, its purpose is provide navigation links.  
+
+![image](https://user-images.githubusercontent.com/45472379/115162987-3f122d00-a06c-11eb-8003-492ecfdc7b8f.png)  
+
+**Main**  
+It represents the main body content, this should be unique.  
+
+![image](https://user-images.githubusercontent.com/45472379/115162980-33bf0180-a06c-11eb-9c9d-0a8ba68c1db1.png)  
+
+**Section**    
+It represents generic sectioning element, and should only be used if there isn't a more specific element to represent it, it typically by including a heading.  
+
+![image](https://user-images.githubusercontent.com/45472379/115162968-1f7b0480-a06c-11eb-9a39-e76d822436eb.png)  
+
+**Articlee**  
+It represents a self-contained composition which is intended to be independently distributable or reusable.  
+
+![image](https://user-images.githubusercontent.com/45472379/115162952-0b370780-a06c-11eb-854a-1f0ff1b15410.png)  
+
+**Ol**  
+It represents an ordered list of items, typically rendered as a numbered list.  
+
+![image](https://user-images.githubusercontent.com/45472379/115163071-ad56ef80-a06c-11eb-90bc-4e54f5356c1d.png)  
+
+**Ul**  
+It represents an unordered list of items, typically rendered as a bulleted list.  
+
+![image](https://user-images.githubusercontent.com/45472379/115163105-d8d9da00-a06c-11eb-9e80-a10446711b7d.png)  
+
+**Li**  
+It represents an item in a list. It must be contained in a parent element  
+
+![image](https://user-images.githubusercontent.com/45472379/115163162-1f2f3900-a06d-11eb-8875-34cc1996b691.png)  
+
+**Footer**  
+It represents a footer for its nearest sectioning content or sectioning root element  
+
+![image](https://user-images.githubusercontent.com/45472379/115163255-c1e7b780-a06d-11eb-858b-6faf52bc2931.png)  
+
+##### Content tag
+
+**P**  
+It represents a paragraph  
+
+![image](https://user-images.githubusercontent.com/45472379/115163222-851bc080-a06d-11eb-8963-e77975eb3352.png)  
+
+**H1-H6**  
+It represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest.
+
+![image](https://user-images.githubusercontent.com/45472379/115163215-7af9c200-a06d-11eb-8265-0e75a85ad8d2.png)  
+
+**a**  
+This element with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address  
+
+![image](https://user-images.githubusercontent.com/45472379/115163348-40445980-a06e-11eb-9cfe-b2d5c762e437.png)  
+
+#### HTML5 General Semantic
+
+![image](https://user-images.githubusercontent.com/45472379/115162253-23a52300-a068-11eb-89f7-0e1057ca4be8.png)
