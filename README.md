@@ -2,7 +2,7 @@
 
 ## Week 1
 
-### Saturday, Apr 2021 [Index and its basic structure]  
+### Saturday, Apr 17 2021 [Index and its basic structure]  
 
 #### Why "index.html"  
 By default, servers search an **"index.html"** file to render it as the initial page, if it doesn't exist we would have to tell the server which will be the file name considered as the initial page. If we don't do that, our project structure will be **publicly visible**.
@@ -88,6 +88,8 @@ This tag links an external resource into our page.
  </head>
 ```  
 
+### Sunday, Apr 18 2021 [Index and its basic structure]   
+
 #### Body tag  
 Here goes the visible content to the end user  
 ```html
@@ -98,36 +100,97 @@ Here goes the visible content to the end user
 ##### Container tags  
 **Header**  
 It's is the page header, It usually contains a navigation menu.  
+```html
+ <header>
+  <nav>
+   <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+   </ul>
+  </nav>
+ </header>
+```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162995-4b968580-a06c-11eb-9739-bd08b8f68e63.png)  
 
 **Nav**
 It usually is inside header tag, its purpose is provide navigation links.  
+```html
+ <nav>
+  <ul>
+   <li>About</li>
+   <li>Plans</li>
+   <li>Pricing</li>
+  </ul>
+ </nav>
+```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162987-3f122d00-a06c-11eb-8003-492ecfdc7b8f.png)  
 
 **Main**  
 It represents the main body content, this should be unique.  
+```html
+ <main>
+  <aside>
+   <article>
+    <h2>Diego Figueroa</h2>
+   </article>
+  </aside>
+  <section>
+   <h2>My projects<h2>
+  </section>
+ </main>
+```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162980-33bf0180-a06c-11eb-9c9d-0a8ba68c1db1.png)  
 
 **Section**    
-It represents generic sectioning element, and should only be used if there isn't a more specific element to represent it, it typically by including a heading.  
+It represents generic sectioning element, and should only be used if there isn't a more specific element to represent it, it typically by including a heading. 
+```html
+ <section>
+  <h2>My projects<h2>
+  <p>Pimglo</p>
+ </section>
+```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162968-1f7b0480-a06c-11eb-9a39-e76d822436eb.png)  
 
 **Articlee**  
 It represents a self-contained composition which is intended to be independently distributable or reusable.  
+```html
+ <article>
+  <h2>Diego Figueroa</h2>
+  <p>Front-end developer</p>
+ </article>
+```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162952-0b370780-a06c-11eb-854a-1f0ff1b15410.png)  
 
 **Ol**  
 It represents an ordered list of items, typically rendered as a numbered list.  
+```html
+<ol>
+ <li>HTML</li>
+ <li>CSS</li>
+ <li>JS</li>
+ <li>GIT</li>
+</ol>
+```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115163071-ad56ef80-a06c-11eb-90bc-4e54f5356c1d.png)  
 
 **Ul**  
 It represents an unordered list of items, typically rendered as a bulleted list.  
+
+```html
+<ul>
+ <li>Responsability</li>
+ <li>Empathy</li>
+ <li>Proactive</li>
+ <li>Self-taught</li>
+</ul>
+```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115163105-d8d9da00-a06c-11eb-9e80-a10446711b7d.png)  
 
@@ -161,3 +224,29 @@ This element with its href attribute, creates a hyperlink to web pages, files, e
 #### HTML5 General Semantic
 
 ![image](https://user-images.githubusercontent.com/45472379/115162253-23a52300-a068-11eb-89f7-0e1057ca4be8.png)
+
+Reto: crea tu lista de compras del supermercado
+### Monday, Apr 19 2021 [Challenge: Make a supermarket shopping list]  
+```html
+<ul>
+ <li>Fruits</li>
+  <ol>
+   <li>Apple</li>
+   <li>Apple</li>
+  </ol>
+ <li>Meat</li>
+  <ol>
+   <li>Chicken</li>
+   <li>Ground beef</li>
+  </ol>
+ <li>Vegetables</li>
+  <ol>
+   <li>Lemon</li>
+   <li>
+    <a href="shorturl.at/gmBGK" target="_blank">Carrot<a>
+   </li>
+  </ol>
+ </li>
+</ul>
+<p>Created with love</p>
+```
