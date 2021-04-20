@@ -24,10 +24,10 @@ Identation is crucial in any programming code, because it let to other developer
 ```html
 <!DOCTYPE html>
 <html lang="en">
- <head>
- </head>
- <body>
- </body
+  <head>
+  </head>
+  <body>
+  </body
 </html>
 ```   
 
@@ -44,48 +44,48 @@ These are typically used to specify character set, page description, keywords, a
 **Meta Charset**  
 This attribute help us to include special characters and emojis in our page.
 ```html
- <head>
-   <meta charset="UTF-8" />
- </head>
+<head>
+  <meta charset="UTF-8" />
+</head>
 ```  
 **Meta description**  
 This attribute shows a website description in the search engines and benefits the website SEO.  
 ```html
- <head>
-   <meta name="description" content="A simple guide and " />
- </head>
+<head>
+  <meta name="description" content="A simple guide and " />
+</head>
 ``` 
 
 **Meta robots**  
 This attribute tells the navigator robots that track our page and show it in the user searches.  
 ```html
- <head>
-   <meta name="robots" content="HTML, CSS, JS" />
- </head>
+<head>
+  <meta name="robots" content="HTML, CSS, JS" />
+</head>
 ```  
 
 **Meta viewport**  
 This attribute help us to work with responsive pages.  
 ```html
- <head>
-   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
- </head>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
 ```  
 
 **Title**  
 This tag is the title displayed in the browser tab.  
 ```html
- <head>
+<head>
   <title>Today I Learned HTML-CSS-JS</title>
- </head>
+</head>
 ```  
 
 **Link**  
 This tag links an external resource into our page.
 ```html
- <head>
+<head>
   <link rel="stylesheet" href="style.css">Today I Learned HTML-CSS-JS />
- </head>
+</head>
 ```  
 
 ### Sunday, Apr 18 2021 [Index and its basic structure]   
@@ -93,23 +93,23 @@ This tag links an external resource into our page.
 #### Body tag  
 Here goes the visible content to the end user  
 ```html
- <body>
- </body>
+<body>
+</body>
 ```  
 
 ##### Container tags  
 **Header**  
 It's is the page header, It usually contains a navigation menu.  
 ```html
- <header>
+<header>
   <nav>
-   <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
-   </ul>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
   </nav>
- </header>
+</header>
 ```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162995-4b968580-a06c-11eb-9739-bd08b8f68e63.png)  
@@ -117,13 +117,13 @@ It's is the page header, It usually contains a navigation menu.
 **Nav**
 It usually is inside header tag, its purpose is provide navigation links.  
 ```html
- <nav>
+<nav>
   <ul>
-   <li>About</li>
-   <li>Plans</li>
-   <li>Pricing</li>
+    <li>About</li>
+    <li>Plans</li>
+    <li>Pricing</li>
   </ul>
- </nav>
+</nav>
 ```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162987-3f122d00-a06c-11eb-8003-492ecfdc7b8f.png)  
@@ -131,16 +131,16 @@ It usually is inside header tag, its purpose is provide navigation links.
 **Main**  
 It represents the main body content, this should be unique.  
 ```html
- <main>
+<main>
   <aside>
-   <article>
-    <h2>Diego Figueroa</h2>
-   </article>
+    <article>
+      <h2>Diego Figueroa</h2>
+    </article>
   </aside>
   <section>
-   <h2>My projects<h2>
+    <h2>My projects<h2>
   </section>
- </main>
+</main>
 ```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162980-33bf0180-a06c-11eb-9c9d-0a8ba68c1db1.png)  
@@ -148,10 +148,10 @@ It represents the main body content, this should be unique.
 **Section**    
 It represents generic sectioning element, and should only be used if there isn't a more specific element to represent it, it typically by including a heading. 
 ```html
- <section>
+<section>
   <h2>My projects<h2>
   <p>Pimglo</p>
- </section>
+</section>
 ```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162968-1f7b0480-a06c-11eb-9a39-e76d822436eb.png)  
@@ -159,10 +159,10 @@ It represents generic sectioning element, and should only be used if there isn't
 **Articlee**  
 It represents a self-contained composition which is intended to be independently distributable or reusable.  
 ```html
- <article>
+<article>
   <h2>Diego Figueroa</h2>
   <p>Front-end developer</p>
- </article>
+</article>
 ```  
 
 ![image](https://user-images.githubusercontent.com/45472379/115162952-0b370780-a06c-11eb-854a-1f0ff1b15410.png)  
@@ -171,10 +171,10 @@ It represents a self-contained composition which is intended to be independently
 It represents an ordered list of items, typically rendered as a numbered list.  
 ```html
 <ol>
- <li>HTML</li>
- <li>CSS</li>
- <li>JS</li>
- <li>GIT</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+  <li>GIT</li>
 </ol>
 ```  
 
@@ -185,10 +185,10 @@ It represents an unordered list of items, typically rendered as a bulleted list.
 
 ```html
 <ul>
- <li>Responsability</li>
- <li>Empathy</li>
- <li>Proactive</li>
- <li>Self-taught</li>
+  <li>Responsability</li>
+  <li>Empathy</li>
+  <li>Proactive</li>
+  <li>Self-taught</li>
 </ul>
 ```  
 
@@ -229,24 +229,25 @@ Reto: crea tu lista de compras del supermercado
 ### Monday, Apr 19 2021 [Challenge: Make a supermarket shopping list]  
 ```html
 <ul>
- <li>Fruits</li>
+  <li>Fruits</li>
   <ol>
-   <li>Apple</li>
-   <li>Apple</li>
+    <li>Apple</li>
+    <li>Apple</li>
   </ol>
- <li>Meat</li>
+ 
+  <li>Meat</li>
   <ol>
-   <li>Chicken</li>
-   <li>Ground beef</li>
+    <li>Chicken</li>
+    <li>Ground beef</li>
   </ol>
- <li>Vegetables</li>
+ 
+  <li>Vegetables</li>
   <ol>
-   <li>Lemon</li>
-   <li>
-    <a href="shorturl.at/gmBGK" target="_blank">Carrot<a>
-   </li>
+    <li>Lemon</li>
+    <li>
+      <a href="shorturl.at/gmBGK" target="_blank">Carrot<a>
+    </li>
   </ol>
- </li>
 </ul>
 <p>Created with love</p>
 ```
