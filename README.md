@@ -234,13 +234,11 @@ Reto: crea tu lista de compras del supermercado
     <li>Apple</li>
     <li>Apple</li>
   </ol>
- 
   <li>Meat</li>
   <ol>
     <li>Chicken</li>
     <li>Ground beef</li>
   </ol>
- 
   <li>Vegetables</li>
   <ol>
     <li>Lemon</li>
