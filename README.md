@@ -291,7 +291,7 @@ On average, an image should weigh 70 kb
   <li>Vegetables</li>
   <ol>
     <li>Potato</li>
-    <img src="https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="200px" alt="potatoes" />
+    <img src="https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="200px" alt="potatoes" />
     <li>
       <a href="shorturl.at/gmBGK" target="_blank">Carrot<a>
     </li>
