@@ -300,3 +300,4 @@ On average, an image should weigh 70 kb
 </ul>
 <p>Created with love</p>
 ```
+
