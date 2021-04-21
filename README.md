@@ -223,9 +223,8 @@ This element with its href attribute, creates a hyperlink to web pages, files, e
 
 #### HTML5 General Semantic
 
-![image](https://user-images.githubusercontent.com/45472379/115162253-23a52300-a068-11eb-89f7-0e1057ca4be8.png)
+![image](https://user-images.githubusercontent.com/45472379/115162253-23a52300-a068-11eb-89f7-0e1057ca4be8.png)  
 
-Reto: crea tu lista de compras del supermercado
 ### Monday, Apr 19 2021 [Challenge: Make a supermarket shopping list]  
 ```html
 <ul>
@@ -245,6 +244,58 @@ Reto: crea tu lista de compras del supermercado
     <li>
       <a href="shorturl.at/gmBGK" target="_blank">Carrot<a>
     </li>
+  </ol>
+</ul>
+<p>Created with love</p>
+```
+### Tuesday, Apr 20 2021 [HTML Tag Anatomy]  
+
+![image](https://user-images.githubusercontent.com/45472379/115413441-cb326a80-a1ba-11eb-8ab1-a1ca5f35855c.png)  
+
+#### Type of images  
+**Lossy vs Lossless**
+There are 2 types of images, lossless and lossy, it depends on the image format.  
+
+**Lossless** 
+It lose nothing from the original image. Lossless images are bigger than lossy ones.
+
+**Lossy**  
+It approximates the original image, reducing the file size but also the quality. Lossy images are smaller than lossless one.   
+
+![image](https://user-images.githubusercontent.com/45472379/115417122-f9657980-a1bd-11eb-88ea-a45ede886c14.png)  
+
+#### Images optimization  
+On average, an image should weigh 70 kb  
+
+**Tools to get a better image optimization**  
+- https://tinypng.com/
+- https://www.verexif.com/
+
+**Challenge, using images in a shopping cart**  
+```html
+<ul>
+  <li>Fruits</li>
+  <ol>
+    <li>Apple</li>
+    <img src="https://images.pexels.com/photos/206959/pexels-photo-206959.jpeg?cs=srgb&dl=pexels-pixabay-206959.jpg&fm=jpg" width="200px" alt="apple" />
+    <li>Lemon</li>
+    <img src="https://images.pexels.com/photos/952360/pexels-photo-952360.jpeg?cs=srgb&dl=pexels-lukas-952360.jpg&fm=jpg" width="200px" alt="lemon" />
+  </ol>
+  <li>Meat</li>
+  <ol>
+    <li>Chicken</li>
+    <img src="https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="200px" alt="chicken food" />
+    <li>Ground beef</li>
+    <img src="https://images.pexels.com/photos/128401/pexels-photo-128401.jpeg?cs=srgb&dl=pexels-angele-j-128401.jpg&fm=jpg" width="200px" alt="ground beef" />
+  </ol>
+  <li>Vegetables</li>
+  <ol>
+    <li>Potato</li>
+    <img src="https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="200px" alt="potatoes" />
+    <li>
+      <a href="shorturl.at/gmBGK" target="_blank">Carrot<a>
+    </li>
+    <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="200px" alt="carrot" />
   </ol>
 </ul>
 <p>Created with love</p>
